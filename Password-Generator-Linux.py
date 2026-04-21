@@ -8,7 +8,6 @@ try:
     while (i != 1):
         os.system('title Password Generator')
         os.system('mode 40,10')
-        #os.system('cls') # Windows OS Option
         os.system('clear')
 
         # Menu
@@ -23,14 +22,11 @@ try:
 
         option = int(input('Enter Your Choice: '))
         if option == 1:
-            #os.system('cls') # Windows OS Option
             os.system('clear')
             input('Bye!')
             os.system('clear')
-            #os.system('pause') # Windows OS Option
             i = 1
         elif option == 2:
-            #os.system('cls') # Windows OS Option
             os.system('clear')
             print('=====Generate Lower/Upper Case Password=====')
             print('')
@@ -49,7 +45,6 @@ try:
             input("Press enter to clear the screen...")
             i = 2
         elif option == 3:
-            #os.system('cls') # Windows OS Option
             os.system('clear')
             print('=====Generate With Numbers=====')
             print('')
@@ -68,7 +63,6 @@ try:
             input("Press enter to clear the screen...")
             i = 3
         elif option == 4:
-            #os.system('cls') # Windows OS Option
             os.system('clear')
             print('=====Generate With Special Charecters=====')
             print('')
@@ -87,7 +81,6 @@ try:
             input("Press enter to clear the screen...")
             i = 4
         elif option == 5:
-            #os.system('cls') # Windows OS Option
             os.system('clear')
             print('=====Generate With Everything=====')
             print('')
@@ -107,7 +100,6 @@ try:
             i = 5
         else:
             print('Invalid option. Please enter a number between 1 and 4.')
-            #os.system('pause') # Windows OS Option
 except:
     os.system('clear')
     print("Please run the script again and choose a valid option!")
