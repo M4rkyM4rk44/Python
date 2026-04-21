@@ -18,6 +18,8 @@ while (i != 1):
         print('Bye!')
         print('')
         i = 1
+        input("Press Enter to continue...")
+        os.system('clear')
     elif option == 2:
         os.system('clear')
         print('=====Calculate Risk=====')
@@ -29,6 +31,7 @@ while (i != 1):
         print("Risk Amount: $"+str(round(res,2)))
         print('')
         i = 2
+        input("Press Enter to continue...")
     elif option == 3:
         os.system('clear')
         print('=====Calculate Lot Size=====')
@@ -40,6 +43,7 @@ while (i != 1):
         print('Lot Size: '+str(round(res,1)))
         print('')
         i = 3
+        input("Press Enter to continue...")
     elif option == 4:
         os.system('clear')
         print('=====Calculate Both=====')
@@ -53,5 +57,7 @@ while (i != 1):
         print('Lot Size: '+str(round(res2,1)))
         print('')
         i = 4
+        input("Press Enter to continue...")
     else:
+        os.system('clear')
         print('Invalid option. Please enter a number between 1 and 4.')
