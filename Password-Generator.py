@@ -27,7 +27,7 @@ try:
             os.system('clear')
             input('Bye!')
             os.system('clear')
-            os.system('pause')
+            #os.system('pause') # Windows OS Option
             i = 1
         elif option == 2:
             #os.system('cls') # Windows OS Option
@@ -107,7 +107,7 @@ try:
             i = 5
         else:
             print('Invalid option. Please enter a number between 1 and 4.')
-            os.system('pause')
+            #os.system('pause') # Windows OS Option
 except:
     os.system('clear')
     print("Please run the script again and choose a valid option!")
